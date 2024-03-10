@@ -6,7 +6,7 @@ import React from 'react';
 const Tech = () => {
   return (
     <div className='h-max bg-black' id='tech'>
-      <p className='text-center text-white text-6xl mb-8'>Tech Stack</p>
+      <p className='text-center text-white text-4xl md:text-6xl mb-8'>Tech Stack</p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-16">
         {/* Box 1 */}
