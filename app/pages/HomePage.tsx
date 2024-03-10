@@ -5,15 +5,15 @@ import { SparklesCore } from "../components/ui/sparkles";
 
 const HomePage = () => {
     return (
-        <>
+        <div id="home">
             <div className="h-[100vh] relative w-full bg-black flex flex-col items-center justify-center overflow-hidden ">
                 <div className="w-full absolute inset-0 h-screen">
                     <SparklesCore
                         id="tsparticlesfullpage"
                         background="transparent"
-                        minSize={0.6}
-                        maxSize={1.4}
-                        particleDensity={100}
+                        minSize={10}
+                        maxSize={30}
+                        particleDensity={10}
                         className="w-full h-full"
                         particleColor="#FFFFFF"
                     />
@@ -23,7 +23,7 @@ const HomePage = () => {
                 </h1>
                 <p className="text-white text-3xl">Full Stack Dev</p>
             </div>
-        </>
+        </div>
     )
 }
 
